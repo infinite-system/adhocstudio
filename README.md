@@ -61,7 +61,7 @@ function createUnit() {
     'floorplan_id' => int,
     'unitnumber' => int,
   ])
-  insert_into_prices(totalPrice(...), datetime)
+  insert_into_prices(totalPrice(...), datetime, is_current_price = true)
 }
 
 function updateUnit() {
@@ -72,7 +72,8 @@ function updateUnit() {
   ])
 
   if (price_changed) {
-    insert_into_prices(totalPrice(...), datetime)
+    insert_into_prices(totalPrice(...), datetime, is_current_price = true)
+    make_previous_price_not_current_price()
   }
 }
 
