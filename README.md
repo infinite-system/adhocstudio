@@ -53,7 +53,7 @@ function basePrice(pricePerSqft, sqft){
 }
 
 function priceAddonPerFloor(addOnPrice, unitNumber){
-  const realFloor = parseInt(String(unitNumber - 1).charAt(0))
+  const realFloor = parseInt(String(unitNumber).charAt(0)) - 1
   // floor 1 is actually floor 0 for our calculation
   return realFloor * addOnPrice
 }
