@@ -7,6 +7,8 @@ Enjoy!
 
 [https://codesandbox.io/s/building-an-ioc-container-demo-start-forked-4bzu1z](https://codesandbox.io/s/building-an-ioc-container-demo-start-forked-4bzu1z?file=/src/test.spec.js)
 
+You can run the tests there to see that they all pass.
+
 Do not mind the slug name it's for a different fork, i just reused it for speed.
 
 ## Application Design:
