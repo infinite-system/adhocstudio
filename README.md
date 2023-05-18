@@ -109,7 +109,7 @@ function viewSumUnitPrices(){
 - Create database using MySQL, MariaDB, PostgreSQL or a autoscalable solution by Amazon Aurora, Planet Scale from Google, or TIDB for RDBS support
 - Setup Load Balancer with static IP
 - Setup HTTPS for the load balancer IP and point the domains at the load balancer
-- Setup Ubunut/CentOS/Alpine/Linux servers with NGINX or NodeJS under the instance groups
+- Setup Ubuntu/CentOS/Alpine/Linux servers with NGINX or NodeJS under the instance groups
 - Link the instance group to the load balancer
 - Setup https for individual servers to prevent Google/AWS man in the middle attack from Google/AWS itself
 - Make those servers auto scalable via CLOUD if we are using a distributed database solution like Amazon Aurora, or Planet Scale,
