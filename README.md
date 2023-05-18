@@ -16,6 +16,11 @@ condos: {
   name: string
 }
 
+floorplans: {
+  id: int
+  name: string
+}
+
 units: {
   id: int
   condo_id: int (reference to condo)
@@ -30,6 +35,7 @@ id | condo_id | floorplan_id | unit_number
 2, 1, 2, 202,
 3, 1, 2, 303,
 4, 1, 3, 403,
+
 
 prices: {
   id: int,
