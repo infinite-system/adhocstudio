@@ -33,10 +33,10 @@ units: {
 Units sample data:
 id | condo_id | floorplan_id | unit_number
 1, 1, 1, 101,
-1, 1, 2, 102,
-2, 1, 2, 202,
-3, 1, 2, 303,
-4, 1, 3, 403,
+2, 1, 2, 102,
+3, 1, 2, 202,
+4, 1, 2, 303,
+5, 1, 3, 403,
 
 
 prices: {
